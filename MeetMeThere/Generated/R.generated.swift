@@ -85,6 +85,7 @@ struct R: Rswift.Validatable {
   }
 
   static func validate() throws {
+    try font.validate()
     try intern.validate()
   }
 
@@ -130,15 +131,128 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
 
-  /// This `R.file` struct is generated, and contains static references to 1 files.
+  /// This `R.file` struct is generated, and contains static references to 8 files.
   struct file {
+    /// Resource file `BrandonGrotesque-Black.ttf`.
+    static let brandonGrotesqueBlackTtf = Rswift.FileResource(bundle: R.hostingBundle, name: "BrandonGrotesque-Black", pathExtension: "ttf")
+    /// Resource file `BrandonGrotesque-Bold.ttf`.
+    static let brandonGrotesqueBoldTtf = Rswift.FileResource(bundle: R.hostingBundle, name: "BrandonGrotesque-Bold", pathExtension: "ttf")
+    /// Resource file `BrandonGrotesque-Light.ttf`.
+    static let brandonGrotesqueLightTtf = Rswift.FileResource(bundle: R.hostingBundle, name: "BrandonGrotesque-Light", pathExtension: "ttf")
+    /// Resource file `BrandonGrotesque-Medium.ttf`.
+    static let brandonGrotesqueMediumTtf = Rswift.FileResource(bundle: R.hostingBundle, name: "BrandonGrotesque-Medium", pathExtension: "ttf")
+    /// Resource file `BrandonGrotesque-Thin.ttf`.
+    static let brandonGrotesqueThinTtf = Rswift.FileResource(bundle: R.hostingBundle, name: "BrandonGrotesque-Thin", pathExtension: "ttf")
+    /// Resource file `BrandonGrotesque-ThinItalic.ttf`.
+    static let brandonGrotesqueThinItalicTtf = Rswift.FileResource(bundle: R.hostingBundle, name: "BrandonGrotesque-ThinItalic", pathExtension: "ttf")
     /// Resource file `GoogleService-Info.plist`.
     static let googleServiceInfoPlist = Rswift.FileResource(bundle: R.hostingBundle, name: "GoogleService-Info", pathExtension: "plist")
+    /// Resource file `Preview Content`.
+    static let previewContent = Rswift.FileResource(bundle: R.hostingBundle, name: "Preview Content", pathExtension: "")
+
+    /// `bundle.url(forResource: "BrandonGrotesque-Black", withExtension: "ttf")`
+    static func brandonGrotesqueBlackTtf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.brandonGrotesqueBlackTtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+
+    /// `bundle.url(forResource: "BrandonGrotesque-Bold", withExtension: "ttf")`
+    static func brandonGrotesqueBoldTtf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.brandonGrotesqueBoldTtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+
+    /// `bundle.url(forResource: "BrandonGrotesque-Light", withExtension: "ttf")`
+    static func brandonGrotesqueLightTtf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.brandonGrotesqueLightTtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+
+    /// `bundle.url(forResource: "BrandonGrotesque-Medium", withExtension: "ttf")`
+    static func brandonGrotesqueMediumTtf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.brandonGrotesqueMediumTtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+
+    /// `bundle.url(forResource: "BrandonGrotesque-Thin", withExtension: "ttf")`
+    static func brandonGrotesqueThinTtf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.brandonGrotesqueThinTtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+
+    /// `bundle.url(forResource: "BrandonGrotesque-ThinItalic", withExtension: "ttf")`
+    static func brandonGrotesqueThinItalicTtf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.brandonGrotesqueThinItalicTtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
 
     /// `bundle.url(forResource: "GoogleService-Info", withExtension: "plist")`
     static func googleServiceInfoPlist(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.googleServiceInfoPlist
       return fileResource.bundle.url(forResource: fileResource)
+    }
+
+    /// `bundle.url(forResource: "Preview Content", withExtension: "")`
+    static func previewContent(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.previewContent
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+
+    fileprivate init() {}
+  }
+
+  /// This `R.font` struct is generated, and contains static references to 6 fonts.
+  struct font: Rswift.Validatable {
+    /// Font `BrandonGrotesque-Black`.
+    static let brandonGrotesqueBlack = Rswift.FontResource(fontName: "BrandonGrotesque-Black")
+    /// Font `BrandonGrotesque-Bold`.
+    static let brandonGrotesqueBold = Rswift.FontResource(fontName: "BrandonGrotesque-Bold")
+    /// Font `BrandonGrotesque-Light`.
+    static let brandonGrotesqueLight = Rswift.FontResource(fontName: "BrandonGrotesque-Light")
+    /// Font `BrandonGrotesque-Medium`.
+    static let brandonGrotesqueMedium = Rswift.FontResource(fontName: "BrandonGrotesque-Medium")
+    /// Font `BrandonGrotesque-ThinItalic`.
+    static let brandonGrotesqueThinItalic = Rswift.FontResource(fontName: "BrandonGrotesque-ThinItalic")
+    /// Font `BrandonGrotesque-Thin`.
+    static let brandonGrotesqueThin = Rswift.FontResource(fontName: "BrandonGrotesque-Thin")
+
+    /// `UIFont(name: "BrandonGrotesque-Black", size: ...)`
+    static func brandonGrotesqueBlack(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: brandonGrotesqueBlack, size: size)
+    }
+
+    /// `UIFont(name: "BrandonGrotesque-Bold", size: ...)`
+    static func brandonGrotesqueBold(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: brandonGrotesqueBold, size: size)
+    }
+
+    /// `UIFont(name: "BrandonGrotesque-Light", size: ...)`
+    static func brandonGrotesqueLight(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: brandonGrotesqueLight, size: size)
+    }
+
+    /// `UIFont(name: "BrandonGrotesque-Medium", size: ...)`
+    static func brandonGrotesqueMedium(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: brandonGrotesqueMedium, size: size)
+    }
+
+    /// `UIFont(name: "BrandonGrotesque-Thin", size: ...)`
+    static func brandonGrotesqueThin(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: brandonGrotesqueThin, size: size)
+    }
+
+    /// `UIFont(name: "BrandonGrotesque-ThinItalic", size: ...)`
+    static func brandonGrotesqueThinItalic(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: brandonGrotesqueThinItalic, size: size)
+    }
+
+    static func validate() throws {
+      if R.font.brandonGrotesqueBlack(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'BrandonGrotesque-Black' could not be loaded, is 'BrandonGrotesque-Black.ttf' added to the UIAppFonts array in this targets Info.plist?") }
+      if R.font.brandonGrotesqueBold(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'BrandonGrotesque-Bold' could not be loaded, is 'BrandonGrotesque-Bold.ttf' added to the UIAppFonts array in this targets Info.plist?") }
+      if R.font.brandonGrotesqueLight(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'BrandonGrotesque-Light' could not be loaded, is 'BrandonGrotesque-Light.ttf' added to the UIAppFonts array in this targets Info.plist?") }
+      if R.font.brandonGrotesqueMedium(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'BrandonGrotesque-Medium' could not be loaded, is 'BrandonGrotesque-Medium.ttf' added to the UIAppFonts array in this targets Info.plist?") }
+      if R.font.brandonGrotesqueThin(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'BrandonGrotesque-Thin' could not be loaded, is 'BrandonGrotesque-Thin.ttf' added to the UIAppFonts array in this targets Info.plist?") }
+      if R.font.brandonGrotesqueThinItalic(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'BrandonGrotesque-ThinItalic' could not be loaded, is 'BrandonGrotesque-ThinItalic.ttf' added to the UIAppFonts array in this targets Info.plist?") }
     }
 
     fileprivate init() {}
