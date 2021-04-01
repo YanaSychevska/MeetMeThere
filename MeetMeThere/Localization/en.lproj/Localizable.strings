@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  MeetMeThere
+
+  Created by Yana Sychevska on 31.03.2021.
+  
+*/
+
+// MARK: - Authentification
+"launchApp" = "SKIP & START";
+"login" = "LOG IN";
+"signup" = "SIGN UP";
+"signupLater" = "SIGN UP LATER";

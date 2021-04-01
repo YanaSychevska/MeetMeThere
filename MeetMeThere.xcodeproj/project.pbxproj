@@ -3,19 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186060B13C8C189A69EB91E6 /* Pods_MeetMeThere_MeetMeThereUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2EE2AEFB126027F009AE651 /* Pods_MeetMeThere_MeetMeThereUITests.framework */; };
 		24C56AC026132AF9000E5EC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C56ABF26132AF9000E5EC2 /* AppDelegate.swift */; };
 		24C56AC226132AF9000E5EC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C56AC126132AF9000E5EC2 /* SceneDelegate.swift */; };
-		24C56AC426132AF9000E5EC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C56AC326132AF9000E5EC2 /* ContentView.swift */; };
-		24C56AC726132AF9000E5EC2 /* MeetMeThere.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24C56AC526132AF9000E5EC2 /* MeetMeThere.xcdatamodeld */; };
 		24C56AC926132AFC000E5EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C56AC826132AFC000E5EC2 /* Assets.xcassets */; };
-		24C56ACC26132AFC000E5EC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C56ACB26132AFC000E5EC2 /* Preview Assets.xcassets */; };
 		24C56ACF26132AFC000E5EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C56ACD26132AFC000E5EC2 /* LaunchScreen.storyboard */; };
 		24C56ADA26132AFD000E5EC2 /* MeetMeThereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C56AD926132AFD000E5EC2 /* MeetMeThereTests.swift */; };
 		24C56AE526132AFD000E5EC2 /* MeetMeThereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C56AE426132AFD000E5EC2 /* MeetMeThereUITests.swift */; };
+		24C56B462614BDFD000E5EC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24C56B452614BDFD000E5EC2 /* GoogleService-Info.plist */; };
+		24C56BCF2614C651000E5EC2 /* StartScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C56BCE2614C651000E5EC2 /* StartScreenView.swift */; };
+		24C56C062614CBA5000E5EC2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24C56C082614CBA5000E5EC2 /* Localizable.strings */; };
+		24C56C45261587AD000E5EC2 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 24C56C44261587AD000E5EC2 /* Preview Content */; };
+		24C56C4A261587C7000E5EC2 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C56C49261587C7000E5EC2 /* R.generated.swift */; };
+		24C56C55261589BF000E5EC2 /* BrandonGrotesque-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24C56C4F261589BF000E5EC2 /* BrandonGrotesque-ThinItalic.ttf */; };
+		24C56C56261589BF000E5EC2 /* BrandonGrotesque-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24C56C50261589BF000E5EC2 /* BrandonGrotesque-Black.ttf */; };
+		24C56C57261589BF000E5EC2 /* BrandonGrotesque-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24C56C51261589BF000E5EC2 /* BrandonGrotesque-Thin.ttf */; };
+		24C56C58261589BF000E5EC2 /* BrandonGrotesque-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24C56C52261589BF000E5EC2 /* BrandonGrotesque-Bold.ttf */; };
+		24C56C59261589BF000E5EC2 /* BrandonGrotesque-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24C56C53261589BF000E5EC2 /* BrandonGrotesque-Medium.ttf */; };
+		24C56C5A261589BF000E5EC2 /* BrandonGrotesque-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24C56C54261589BF000E5EC2 /* BrandonGrotesque-Light.ttf */; };
+		766039EC2CD9F06052BC3410 /* Pods_MeetMeThereTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FDE3527216E56E656A7E2C /* Pods_MeetMeThereTests.framework */; };
+		95AA1F1B87E57C85072CD0C1 /* Pods_MeetMeThere.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3F19E777462D65FD0A000A /* Pods_MeetMeThere.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +50,7 @@
 		24C56ABC26132AF9000E5EC2 /* MeetMeThere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetMeThere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C56ABF26132AF9000E5EC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24C56AC126132AF9000E5EC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		24C56AC326132AF9000E5EC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		24C56AC626132AF9000E5EC2 /* MeetMeThere.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeetMeThere.xcdatamodel; sourceTree = "<group>"; };
 		24C56AC826132AFC000E5EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		24C56ACB26132AFC000E5EC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		24C56ACE26132AFC000E5EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24C56AD026132AFC000E5EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24C56AD526132AFD000E5EC2 /* MeetMeThereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetMeThereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +59,29 @@
 		24C56AE026132AFD000E5EC2 /* MeetMeThereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetMeThereUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C56AE426132AFD000E5EC2 /* MeetMeThereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetMeThereUITests.swift; sourceTree = "<group>"; };
 		24C56AE626132AFD000E5EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24C56B452614BDFD000E5EC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		24C56BCE2614C651000E5EC2 /* StartScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenView.swift; sourceTree = "<group>"; };
+		24C56C0C2614CBAA000E5EC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		24C56C0D2614CC34000E5EC2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		24C56C0E2614CC3E000E5EC2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		24C56C0F2614CCEE000E5EC2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		24C56C44261587AD000E5EC2 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		24C56C49261587C7000E5EC2 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		24C56C4F261589BF000E5EC2 /* BrandonGrotesque-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-ThinItalic.ttf"; sourceTree = "<group>"; };
+		24C56C50261589BF000E5EC2 /* BrandonGrotesque-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Black.ttf"; sourceTree = "<group>"; };
+		24C56C51261589BF000E5EC2 /* BrandonGrotesque-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Thin.ttf"; sourceTree = "<group>"; };
+		24C56C52261589BF000E5EC2 /* BrandonGrotesque-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Bold.ttf"; sourceTree = "<group>"; };
+		24C56C53261589BF000E5EC2 /* BrandonGrotesque-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Medium.ttf"; sourceTree = "<group>"; };
+		24C56C54261589BF000E5EC2 /* BrandonGrotesque-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Light.ttf"; sourceTree = "<group>"; };
+		67FDE3527216E56E656A7E2C /* Pods_MeetMeThereTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetMeThereTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		708DBFED0BFE8AEF2BF17BCF /* Pods-MeetMeThereTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetMeThereTests.release.xcconfig"; path = "Target Support Files/Pods-MeetMeThereTests/Pods-MeetMeThereTests.release.xcconfig"; sourceTree = "<group>"; };
+		A32F129FC9E304F9B88D36D9 /* Pods-MeetMeThere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetMeThere.debug.xcconfig"; path = "Target Support Files/Pods-MeetMeThere/Pods-MeetMeThere.debug.xcconfig"; sourceTree = "<group>"; };
+		A7268ECBCFB173B65955E628 /* Pods-MeetMeThereTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetMeThereTests.debug.xcconfig"; path = "Target Support Files/Pods-MeetMeThereTests/Pods-MeetMeThereTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A83C686CF653C816A3082F3B /* Pods-MeetMeThere-MeetMeThereUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetMeThere-MeetMeThereUITests.release.xcconfig"; path = "Target Support Files/Pods-MeetMeThere-MeetMeThereUITests/Pods-MeetMeThere-MeetMeThereUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CB056A4E7C4C70EF6AD1FB1B /* Pods-MeetMeThere-MeetMeThereUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetMeThere-MeetMeThereUITests.debug.xcconfig"; path = "Target Support Files/Pods-MeetMeThere-MeetMeThereUITests/Pods-MeetMeThere-MeetMeThereUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2EE2AEFB126027F009AE651 /* Pods_MeetMeThere_MeetMeThereUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetMeThere_MeetMeThereUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F891F28715221CFD74AB0514 /* Pods-MeetMeThere.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetMeThere.release.xcconfig"; path = "Target Support Files/Pods-MeetMeThere/Pods-MeetMeThere.release.xcconfig"; sourceTree = "<group>"; };
+		FA3F19E777462D65FD0A000A /* Pods_MeetMeThere.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetMeThere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95AA1F1B87E57C85072CD0C1 /* Pods_MeetMeThere.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				766039EC2CD9F06052BC3410 /* Pods_MeetMeThereTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186060B13C8C189A69EB91E6 /* Pods_MeetMeThere_MeetMeThereUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +119,8 @@
 				24C56AD826132AFD000E5EC2 /* MeetMeThereTests */,
 				24C56AE326132AFD000E5EC2 /* MeetMeThereUITests */,
 				24C56ABD26132AF9000E5EC2 /* Products */,
+				9263AC7D7D15C4ADFEB9346E /* Pods */,
+				E0AD302477CFC9B7C4F2FD77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,24 +137,15 @@
 		24C56ABE26132AF9000E5EC2 /* MeetMeThere */ = {
 			isa = PBXGroup;
 			children = (
-				24C56ABF26132AF9000E5EC2 /* AppDelegate.swift */,
-				24C56AC126132AF9000E5EC2 /* SceneDelegate.swift */,
-				24C56AC326132AF9000E5EC2 /* ContentView.swift */,
-				24C56AC826132AFC000E5EC2 /* Assets.xcassets */,
-				24C56ACD26132AFC000E5EC2 /* LaunchScreen.storyboard */,
-				24C56AD026132AFC000E5EC2 /* Info.plist */,
-				24C56AC526132AF9000E5EC2 /* MeetMeThere.xcdatamodeld */,
-				24C56ACA26132AFC000E5EC2 /* Preview Content */,
+				24C56C4E261588D2000E5EC2 /* Fonts */,
+				24C56B412614BD62000E5EC2 /* App Delegate */,
+				24C56C3D26158656000E5EC2 /* Generated */,
+				24C56BDA2614C957000E5EC2 /* Localization */,
+				24C56C44261587AD000E5EC2 /* Preview Content */,
+				24C56B402614BCF7000E5EC2 /* Resources */,
+				24C56AF526132B1E000E5EC2 /* StartScreen */,
 			);
 			path = MeetMeThere;
-			sourceTree = "<group>";
-		};
-		24C56ACA26132AFC000E5EC2 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				24C56ACB26132AFC000E5EC2 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		24C56AD826132AFD000E5EC2 /* MeetMeThereTests */ = {
@@ -139,6 +166,86 @@
 			path = MeetMeThereUITests;
 			sourceTree = "<group>";
 		};
+		24C56AF526132B1E000E5EC2 /* StartScreen */ = {
+			isa = PBXGroup;
+			children = (
+				24C56BCE2614C651000E5EC2 /* StartScreenView.swift */,
+				24C56ACD26132AFC000E5EC2 /* LaunchScreen.storyboard */,
+			);
+			path = StartScreen;
+			sourceTree = "<group>";
+		};
+		24C56B402614BCF7000E5EC2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24C56AC826132AFC000E5EC2 /* Assets.xcassets */,
+				24C56B452614BDFD000E5EC2 /* GoogleService-Info.plist */,
+				24C56AD026132AFC000E5EC2 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		24C56B412614BD62000E5EC2 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				24C56ABF26132AF9000E5EC2 /* AppDelegate.swift */,
+				24C56AC126132AF9000E5EC2 /* SceneDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		24C56BDA2614C957000E5EC2 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				24C56C082614CBA5000E5EC2 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		24C56C3D26158656000E5EC2 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				24C56C49261587C7000E5EC2 /* R.generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		24C56C4E261588D2000E5EC2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				24C56C50261589BF000E5EC2 /* BrandonGrotesque-Black.ttf */,
+				24C56C52261589BF000E5EC2 /* BrandonGrotesque-Bold.ttf */,
+				24C56C54261589BF000E5EC2 /* BrandonGrotesque-Light.ttf */,
+				24C56C53261589BF000E5EC2 /* BrandonGrotesque-Medium.ttf */,
+				24C56C51261589BF000E5EC2 /* BrandonGrotesque-Thin.ttf */,
+				24C56C4F261589BF000E5EC2 /* BrandonGrotesque-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9263AC7D7D15C4ADFEB9346E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A32F129FC9E304F9B88D36D9 /* Pods-MeetMeThere.debug.xcconfig */,
+				F891F28715221CFD74AB0514 /* Pods-MeetMeThere.release.xcconfig */,
+				CB056A4E7C4C70EF6AD1FB1B /* Pods-MeetMeThere-MeetMeThereUITests.debug.xcconfig */,
+				A83C686CF653C816A3082F3B /* Pods-MeetMeThere-MeetMeThereUITests.release.xcconfig */,
+				A7268ECBCFB173B65955E628 /* Pods-MeetMeThereTests.debug.xcconfig */,
+				708DBFED0BFE8AEF2BF17BCF /* Pods-MeetMeThereTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0AD302477CFC9B7C4F2FD77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA3F19E777462D65FD0A000A /* Pods_MeetMeThere.framework */,
+				F2EE2AEFB126027F009AE651 /* Pods_MeetMeThere_MeetMeThereUITests.framework */,
+				67FDE3527216E56E656A7E2C /* Pods_MeetMeThereTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24C56AE926132AFD000E5EC2 /* Build configuration list for PBXNativeTarget "MeetMeThere" */;
 			buildPhases = (
+				9443EC4A082523F29242A213 /* [CP] Check Pods Manifest.lock */,
+				24C56C2B2614CEF0000E5EC2 /* ShellScript */,
 				24C56AB826132AF9000E5EC2 /* Sources */,
 				24C56AB926132AF9000E5EC2 /* Frameworks */,
 				24C56ABA26132AF9000E5EC2 /* Resources */,
+				5BFA56D6C8EFEF72915A4F2E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24C56AEC26132AFD000E5EC2 /* Build configuration list for PBXNativeTarget "MeetMeThereTests" */;
 			buildPhases = (
+				7908A97E2C1C0736BC682E67 /* [CP] Check Pods Manifest.lock */,
 				24C56AD126132AFD000E5EC2 /* Sources */,
 				24C56AD226132AFD000E5EC2 /* Frameworks */,
 				24C56AD326132AFD000E5EC2 /* Resources */,
@@ -181,9 +292,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24C56AEF26132AFD000E5EC2 /* Build configuration list for PBXNativeTarget "MeetMeThereUITests" */;
 			buildPhases = (
+				FA56E301C49296E57CA42993 /* [CP] Check Pods Manifest.lock */,
 				24C56ADC26132AFD000E5EC2 /* Sources */,
 				24C56ADD26132AFD000E5EC2 /* Frameworks */,
 				24C56ADE26132AFD000E5EC2 /* Resources */,
+				C53BA126E53371E7E4E607B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,6 +337,8 @@
 			knownRegions = (
 				en,
 				Base,
+				uk,
+				ru,
 			);
 			mainGroup = 24C56AB326132AF9000E5EC2;
 			productRefGroup = 24C56ABD26132AF9000E5EC2 /* Products */;
@@ -242,9 +357,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C56C57261589BF000E5EC2 /* BrandonGrotesque-Thin.ttf in Resources */,
+				24C56C58261589BF000E5EC2 /* BrandonGrotesque-Bold.ttf in Resources */,
+				24C56C55261589BF000E5EC2 /* BrandonGrotesque-ThinItalic.ttf in Resources */,
+				24C56C062614CBA5000E5EC2 /* Localizable.strings in Resources */,
+				24C56C45261587AD000E5EC2 /* Preview Content in Resources */,
 				24C56ACF26132AFC000E5EC2 /* LaunchScreen.storyboard in Resources */,
-				24C56ACC26132AFC000E5EC2 /* Preview Assets.xcassets in Resources */,
+				24C56B462614BDFD000E5EC2 /* GoogleService-Info.plist in Resources */,
 				24C56AC926132AFC000E5EC2 /* Assets.xcassets in Resources */,
+				24C56C5A261589BF000E5EC2 /* BrandonGrotesque-Light.ttf in Resources */,
+				24C56C59261589BF000E5EC2 /* BrandonGrotesque-Medium.ttf in Resources */,
+				24C56C56261589BF000E5EC2 /* BrandonGrotesque-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,15 +387,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24C56C2B2614CEF0000E5EC2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/MeetMeThere/Generated/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/MeetMeThere/Generated/R.generated.swift\"\n";
+		};
+		5BFA56D6C8EFEF72915A4F2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeetMeThere/Pods-MeetMeThere-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeetMeThere/Pods-MeetMeThere-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeetMeThere/Pods-MeetMeThere-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7908A97E2C1C0736BC682E67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeetMeThereTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9443EC4A082523F29242A213 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeetMeThere-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C53BA126E53371E7E4E607B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeetMeThere-MeetMeThereUITests/Pods-MeetMeThere-MeetMeThereUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeetMeThere-MeetMeThereUITests/Pods-MeetMeThere-MeetMeThereUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeetMeThere-MeetMeThereUITests/Pods-MeetMeThere-MeetMeThereUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA56E301C49296E57CA42993 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeetMeThere-MeetMeThereUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24C56AB826132AF9000E5EC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C56BCF2614C651000E5EC2 /* StartScreenView.swift in Sources */,
 				24C56AC026132AF9000E5EC2 /* AppDelegate.swift in Sources */,
-				24C56AC726132AF9000E5EC2 /* MeetMeThere.xcdatamodeld in Sources */,
 				24C56AC226132AF9000E5EC2 /* SceneDelegate.swift in Sources */,
-				24C56AC426132AF9000E5EC2 /* ContentView.swift in Sources */,
+				24C56C4A261587C7000E5EC2 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,8 +557,19 @@
 			isa = PBXVariantGroup;
 			children = (
 				24C56ACE26132AFC000E5EC2 /* Base */,
+				24C56C0D2614CC34000E5EC2 /* uk */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		24C56C082614CBA5000E5EC2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C56C0C2614CBAA000E5EC2 /* en */,
+				24C56C0E2614CC3E000E5EC2 /* uk */,
+				24C56C0F2614CCEE000E5EC2 /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -323,6 +579,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -384,6 +641,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -437,13 +695,15 @@
 		};
 		24C56AEA26132AFD000E5EC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A32F129FC9E304F9B88D36D9 /* Pods-MeetMeThere.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MeetMeThere/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MeetMeThere/Info.plist;
+				INFOPLIST_FILE = MeetMeThere/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,13 +717,15 @@
 		};
 		24C56AEB26132AFD000E5EC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F891F28715221CFD74AB0514 /* Pods-MeetMeThere.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MeetMeThere/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MeetMeThere/Info.plist;
+				INFOPLIST_FILE = MeetMeThere/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +739,7 @@
 		};
 		24C56AED26132AFD000E5EC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7268ECBCFB173B65955E628 /* Pods-MeetMeThereTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +761,7 @@
 		};
 		24C56AEE26132AFD000E5EC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708DBFED0BFE8AEF2BF17BCF /* Pods-MeetMeThereTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +783,7 @@
 		};
 		24C56AF026132AFD000E5EC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB056A4E7C4C70EF6AD1FB1B /* Pods-MeetMeThere-MeetMeThereUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -538,6 +803,7 @@
 		};
 		24C56AF126132AFD000E5EC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A83C686CF653C816A3082F3B /* Pods-MeetMeThere-MeetMeThereUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -595,19 +861,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		24C56AC526132AF9000E5EC2 /* MeetMeThere.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				24C56AC626132AF9000E5EC2 /* MeetMeThere.xcdatamodel */,
-			);
-			currentVersion = 24C56AC626132AF9000E5EC2 /* MeetMeThere.xcdatamodel */;
-			path = MeetMeThere.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 24C56AB426132AF9000E5EC2 /* Project object */;
 }
