@@ -106,10 +106,16 @@ struct R: Rswift.Validatable {
   }
   #endif
 
-  /// This `R.color` struct is generated, and contains static references to 1 colors.
+  /// This `R.color` struct is generated, and contains static references to 4 colors.
   struct color {
     /// Color `AccentColor`.
     static let accentColor = Rswift.ColorResource(bundle: R.hostingBundle, name: "AccentColor")
+    /// Color `GreenSuccess`.
+    static let greenSuccess = Rswift.ColorResource(bundle: R.hostingBundle, name: "GreenSuccess")
+    /// Color `PrimaryBG`.
+    static let primaryBG = Rswift.ColorResource(bundle: R.hostingBundle, name: "PrimaryBG")
+    /// Color `RedCancel`.
+    static let redCancel = Rswift.ColorResource(bundle: R.hostingBundle, name: "RedCancel")
 
     #if os(iOS) || os(tvOS)
     /// `UIColor(named: "AccentColor", bundle: ..., traitCollection: ...)`
@@ -120,11 +126,62 @@ struct R: Rswift.Validatable {
     }
     #endif
 
+    #if os(iOS) || os(tvOS)
+    /// `UIColor(named: "GreenSuccess", bundle: ..., traitCollection: ...)`
+    @available(tvOS 11.0, *)
+    @available(iOS 11.0, *)
+    static func greenSuccess(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIColor? {
+      return UIKit.UIColor(resource: R.color.greenSuccess, compatibleWith: traitCollection)
+    }
+    #endif
+
+    #if os(iOS) || os(tvOS)
+    /// `UIColor(named: "PrimaryBG", bundle: ..., traitCollection: ...)`
+    @available(tvOS 11.0, *)
+    @available(iOS 11.0, *)
+    static func primaryBG(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIColor? {
+      return UIKit.UIColor(resource: R.color.primaryBG, compatibleWith: traitCollection)
+    }
+    #endif
+
+    #if os(iOS) || os(tvOS)
+    /// `UIColor(named: "RedCancel", bundle: ..., traitCollection: ...)`
+    @available(tvOS 11.0, *)
+    @available(iOS 11.0, *)
+    static func redCancel(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIColor? {
+      return UIKit.UIColor(resource: R.color.redCancel, compatibleWith: traitCollection)
+    }
+    #endif
+
     #if os(watchOS)
     /// `UIColor(named: "AccentColor", bundle: ..., traitCollection: ...)`
     @available(watchOSApplicationExtension 4.0, *)
     static func accentColor(_: Void = ()) -> UIKit.UIColor? {
       return UIKit.UIColor(named: R.color.accentColor.name)
+    }
+    #endif
+
+    #if os(watchOS)
+    /// `UIColor(named: "GreenSuccess", bundle: ..., traitCollection: ...)`
+    @available(watchOSApplicationExtension 4.0, *)
+    static func greenSuccess(_: Void = ()) -> UIKit.UIColor? {
+      return UIKit.UIColor(named: R.color.greenSuccess.name)
+    }
+    #endif
+
+    #if os(watchOS)
+    /// `UIColor(named: "PrimaryBG", bundle: ..., traitCollection: ...)`
+    @available(watchOSApplicationExtension 4.0, *)
+    static func primaryBG(_: Void = ()) -> UIKit.UIColor? {
+      return UIKit.UIColor(named: R.color.primaryBG.name)
+    }
+    #endif
+
+    #if os(watchOS)
+    /// `UIColor(named: "RedCancel", bundle: ..., traitCollection: ...)`
+    @available(watchOSApplicationExtension 4.0, *)
+    static func redCancel(_: Void = ()) -> UIKit.UIColor? {
+      return UIKit.UIColor(named: R.color.redCancel.name)
     }
     #endif
 
@@ -254,6 +311,21 @@ struct R: Rswift.Validatable {
       if R.font.brandonGrotesqueThin(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'BrandonGrotesque-Thin' could not be loaded, is 'BrandonGrotesque-Thin.ttf' added to the UIAppFonts array in this targets Info.plist?") }
       if R.font.brandonGrotesqueThinItalic(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'BrandonGrotesque-ThinItalic' could not be loaded, is 'BrandonGrotesque-ThinItalic.ttf' added to the UIAppFonts array in this targets Info.plist?") }
     }
+
+    fileprivate init() {}
+  }
+
+  /// This `R.image` struct is generated, and contains static references to 1 images.
+  struct image {
+    /// Image `startScreenBG`.
+    static let startScreenBG = Rswift.ImageResource(bundle: R.hostingBundle, name: "startScreenBG")
+
+    #if os(iOS) || os(tvOS)
+    /// `UIImage(named: "startScreenBG", bundle: ..., traitCollection: ...)`
+    static func startScreenBG(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.startScreenBG, compatibleWith: traitCollection)
+    }
+    #endif
 
     fileprivate init() {}
   }

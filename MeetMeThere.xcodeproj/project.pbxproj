@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		186060B13C8C189A69EB91E6 /* Pods_MeetMeThere_MeetMeThereUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2EE2AEFB126027F009AE651 /* Pods_MeetMeThere_MeetMeThereUITests.framework */; };
+		243DA7F626160CDB003C75C8 /* LogInRegistrationButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243DA7F526160CDB003C75C8 /* LogInRegistrationButtons.swift */; };
 		24C56AC026132AF9000E5EC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C56ABF26132AF9000E5EC2 /* AppDelegate.swift */; };
 		24C56AC226132AF9000E5EC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C56AC126132AF9000E5EC2 /* SceneDelegate.swift */; };
 		24C56AC926132AFC000E5EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C56AC826132AFC000E5EC2 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		243DA7F526160CDB003C75C8 /* LogInRegistrationButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInRegistrationButtons.swift; sourceTree = "<group>"; };
 		24C56ABC26132AF9000E5EC2 /* MeetMeThere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetMeThere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C56ABF26132AF9000E5EC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24C56AC126132AF9000E5EC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		243DA7E92615CD2B003C75C8 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		243DA7F026160C2C003C75C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		243DA7F126160C42003C75C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				243DA7F426160C80003C75C8 /* Buttons */,
+				243DA7F326160C5E003C75C8 /* StrartScreen */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		243DA7F226160C4D003C75C8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		243DA7F326160C5E003C75C8 /* StrartScreen */ = {
+			isa = PBXGroup;
+			children = (
+				24C56BCE2614C651000E5EC2 /* StartScreenView.swift */,
+			);
+			path = StrartScreen;
+			sourceTree = "<group>";
+		};
+		243DA7F426160C80003C75C8 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				243DA7F526160CDB003C75C8 /* LogInRegistrationButtons.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		24C56AB326132AF9000E5EC2 = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +185,9 @@
 		24C56ABE26132AF9000E5EC2 /* MeetMeThere */ = {
 			isa = PBXGroup;
 			children = (
+				243DA7F226160C4D003C75C8 /* ViewModels */,
+				243DA7F126160C42003C75C8 /* Views */,
+				243DA7F026160C2C003C75C8 /* Models */,
 				24C56C4E261588D2000E5EC2 /* Fonts */,
 				24C56B412614BD62000E5EC2 /* App Delegate */,
 				24C56C3D26158656000E5EC2 /* Generated */,
@@ -169,7 +220,7 @@
 		24C56AF526132B1E000E5EC2 /* StartScreen */ = {
 			isa = PBXGroup;
 			children = (
-				24C56BCE2614C651000E5EC2 /* StartScreenView.swift */,
+				243DA7E92615CD2B003C75C8 /* New Group */,
 				24C56ACD26132AFC000E5EC2 /* LaunchScreen.storyboard */,
 			);
 			path = StartScreen;
@@ -518,6 +569,7 @@
 				24C56AC026132AF9000E5EC2 /* AppDelegate.swift in Sources */,
 				24C56AC226132AF9000E5EC2 /* SceneDelegate.swift in Sources */,
 				24C56C4A261587C7000E5EC2 /* R.generated.swift in Sources */,
+				243DA7F626160CDB003C75C8 /* LogInRegistrationButtons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
